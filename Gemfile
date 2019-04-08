@@ -1,5 +1,7 @@
 source "https://rubygems.org"
 
-# Specify your gem's dependencies in amiibo-cli-app.gemspec
-gemspec
-nokogiri
+gem "bundler", "~> 2.0"
+gem "rake", "~> 10.0"
+gem "require_all"
+gem "pry"
+gem "nokogiri"
